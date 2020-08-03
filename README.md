@@ -15,13 +15,13 @@ This is the script for you!
 
 ## How to use
 
-First, you'll need to make a bot application for Discord, you can do that [here](https://discord.com/developers/applications)
-Secondly, inivte the bot to your desired guild with ban permissions (don't forget to hoist the bot above members you want bannable)
-Next, put `recyclingbot.py` in a folder somewhere.
-Then, run `recyclingbot.py` and a first-time setup will begin
-After that, Paste your bot's token and the guild you wish to operate on when prompted (This bot can only work in one guild at a time)
-Penultiamtely, the bot will run. You won't need to re-do this setup when you run the bot in future, and you can update vars in the new `config.cfg` file made.
-Finally, drag the profile picture of the person you want to ban from your selected guild to the desktop, then to your recycling bin.
+1. First, you'll need to make a bot application for Discord, you can do that [here](https://discord.com/developers/applications)
+2. Secondly, inivte the bot to your desired guild with ban permissions (don't forget to hoist the bot above members you want bannable)
+3. Next, put `recyclingbot.py` in a folder somewhere.
+4. Then, run `recyclingbot.py` and a first-time setup will begin
+5. After that, Paste your bot's token and the guild you wish to operate on when prompted (This bot can only work in one guild at a time)
+6. Penultiamtely, the bot will run. You won't need to re-do this setup when you run the bot in future, and you can update vars in the new `config.cfg` file made.
+7. Finally, drag the profile picture of the person you want to ban from your selected guild to the desktop, then to your recycling bin.
 
 And then you can watch as the magic happens!
 
