@@ -46,4 +46,17 @@ async def on_ready():
     (open('config.cfg','w')).write(json.dumps(config))
     print("Done!")
     await bot.loop.run_in_executor(None, rbinexec)
+@bot.event
+async def on_user_update(before,after):
+    if before.avatar != after.avatar:
+        if after.avatar:
+            config = json.loads((open('config.cfg','r')).read())
+            (config['pfpdata'])[after.avatar] = after.id
+            (open('config.cfg','w')).write(json.dumps(config))
+@bot.event
+async def on_member_join(member):
+    if member.avatar:
+        config = json.loads((open('config.cfg','r')).read())
+        (config['pfpdata'])[after.avatar] = after.id
+        (open('config.cfg','w')).write(json.dumps(config))
 bot.run(config['token'])
