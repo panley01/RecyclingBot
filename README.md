@@ -28,7 +28,6 @@ And then you can watch as the magic happens!
 ### Bugs/limitations
 
 - Right now, the bot will only work on the first 1000 users in a guild
-- It won't update when users join or edit their profile pic
 - It doesn't work on default profile pics
 - It may not work if the users profile pic is already in the recycling bin
 - It can only ban members of the configured guild
