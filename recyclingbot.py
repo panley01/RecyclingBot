@@ -57,6 +57,6 @@ async def on_user_update(before,after):
 async def on_member_join(member):
     if member.avatar:
         config = json.loads((open('config.cfg','r')).read())
-        (config['pfpdata'])[after.avatar] = after.id
+        (config['pfpdata'])[member.avatar] = member.id
         (open('config.cfg','w')).write(json.dumps(config))
 bot.run(config['token'])
