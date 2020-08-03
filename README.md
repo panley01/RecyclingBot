@@ -21,7 +21,7 @@ Then this is the bot for you!
 3. Then, run `recyclingbot.py` and a first-time setup will begin
 4. Next, Paste your bot's token and the guild you wish to operate on when prompted (This bot can only work in one guild at a time)
 5. After that, the bot will start up. You won't need to re-do this setup when you run the bot in future, and you can update variables in the new `config.cfg` file.
-6. Finally, drag the profile picture of the user you want to ban from the guild you entered earlier to your recycling bin.
+6. Finally, drag the profile picture of the user you want to ban from the guild you entered earlier to your desktop, then your recycling bin.
 
 And then watch as the magic happens!
 
